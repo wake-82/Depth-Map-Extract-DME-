@@ -27,8 +27,7 @@ pip install -r requirements.txt
 # Run the application
 python DME.py
 
-=====================================================================================================================
-
+[한국어]
 # DME (Depth Map Extract) v1.0
 
 IW3(IW-GUI)의 디버그 뎁스 비디오를 처리하기 위한 독립형 GUI 도구입니다. 
