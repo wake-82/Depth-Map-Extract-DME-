@@ -1,0 +1,34 @@
+# [Python 관련]
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+.env
+
+# [설정 및 로그 파일]
+# 코드에 포함된 settings_single.json (사용자 설정값 저장용)
+settings_single.json
+
+# [임시 파일 및 빌드]
+.ipynb_checkpoints/
+build/
+dist/
+*.spec
+
+# [운영체제 관련]
+.DS_Store
+Thumbs.db
+
+# [프로그램 실행 관련]
+# 프로젝트 폴더 내에 직접 둔 ffmpeg 실행 파일이 있다면 제외
+ffmpeg.exe
+ffprobe.exe
+*.log
+
+# [출력물]
+# 테스트 도중 생성된 영상 파일들 (예시)
+*.mp4
+*.mkv
+*.ts
